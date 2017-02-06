@@ -1,0 +1,36 @@
+DML-IN 5 KOMANDASI VAR
+SELECT,INSERT,UPDATE,DELETE,MERGE
+
+
+1.SELECT COMMAND
+bu emrnen verilenleri daxil etmek ucundur,
+ 
+student 
+s_id   name   age
+insert into students values 
+(1)(ferid kerimov)(21)
+
+2.UPDATE COMMAND
+Bu daxil olan melumatlari deyiwdirmek ucundur
+
+s_id   name  age
+100  ferid   21
+101  subhan  20
+
+update student set age=19 where s_id=100;
+
+s_id  name  age
+100 ferid   19
+101 subhan  20
+
+3.DELETE COMMAND
+Bu emr daxil olan melumatlari silmek ucundur
+
+s_id  name  age
+100   ferid  19
+101  subhan  20
+delete from student where s_id=100
+
+s_id  name  age
+_______________
+101  subhan  20
